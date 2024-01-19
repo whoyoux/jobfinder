@@ -5,8 +5,8 @@ import Container from "./ui/container";
 
 const Hero = () => {
 	return (
-		<Container className="flex flex-col md:flex-row py-16">
-			<section>
+		<section>
+			<Container className="flex flex-row py-16">
 				<div className="flex-1 flex items-center justify-center">
 					<div>
 						<h2 className="text-4xl font-bold">Find your dream job</h2>
@@ -24,8 +24,8 @@ const Hero = () => {
 						priority
 					/>
 				</div>
-			</section>
-		</Container>
+			</Container>
+		</section>
 	);
 };
 
