@@ -155,7 +155,7 @@ const InformationForm = () => {
 									<Input placeholder="Enter a job location" {...field} />
 								</FormControl>
 								<FormDescription>
-									If remote, please write only "remote"
+									If remote, please write only &quot;remote&ldquo;
 								</FormDescription>
 								<FormMessage />
 							</FormItem>
