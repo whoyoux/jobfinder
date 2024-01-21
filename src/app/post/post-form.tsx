@@ -31,7 +31,7 @@ const formSchema = z.object({
 
 const PostForm = () => {
 	return (
-		<div className="grid grid-cols-5 gap-4 md:gap-8">
+		<div className="flex flex-col md:grid md:grid-cols-5 gap-4 md:gap-8">
 			<section className="col-span-2">
 				<Container>
 					<UploadImage />

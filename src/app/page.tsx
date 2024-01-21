@@ -19,7 +19,7 @@ export default function Home() {
 	return (
 		<>
 			<Hero />
-			<div className="w-full grid grid-cols-4 mt-4 md:mt-8 gap-4 md:gap-8">
+			<div className="w-full flex flex-col md:grid md:grid-cols-4 mt-4 md:mt-8 gap-4 md:gap-8">
 				<FilterSettings />
 				<JobCardsList />
 			</div>
@@ -29,7 +29,7 @@ export default function Home() {
 
 const JobCardsList = () => {
 	return (
-		<section className="w-full col-span-3 rounded-lg grid grid-cols-3 gap-4 md:gap-8">
+		<section className="w-full md:col-span-3 rounded-lg flex flex-col md:grid md:grid-cols-3 gap-4 md:gap-8">
 			<JobCard />
 			<JobCard />
 			<JobCard />

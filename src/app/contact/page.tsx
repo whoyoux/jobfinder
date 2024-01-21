@@ -4,11 +4,10 @@ import Image from "next/image";
 
 import map from "@/images/map.svg";
 import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 const ContactPage = () => {
 	return (
-		<div className="grid grid-cols-2 gap-4 md:gap-8">
+		<div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-4 md:gap-8">
 			<section>
 				<Container className="flex flex-col gap-4">
 					<h3 className="text-2xl font-medium">Contact us</h3>
